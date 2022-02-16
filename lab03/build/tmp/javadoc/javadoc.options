@@ -1,0 +1,7 @@
+-classpath '/home/shiuxi/csci2020u/lab02/build/classes/java/main:/home/shiuxi/csci2020u/lab02/build/resources/main'
+-d '/home/shiuxi/csci2020u/lab02/build/docs/javadoc'
+-doctitle 'lab02 API'
+-notimestamp 
+-quiet 
+-windowtitle 'lab02 API'
+'/home/shiuxi/csci2020u/lab02/src/main/java/csci2020u/lab02/SimpleTest.java'
