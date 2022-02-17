@@ -1,25 +1,63 @@
 plugins {
     id 'java'
+    
 }
+
+sourceCompatibility = 1.8
+targetCompatibility = 1.8
 
 repositories {
 
     mavenCentral()
+    mavenLocal()
+    google()
 
 }
 
-dependencies {
+    
 
+
+
+
+dependencies {
     testImplementation 'org.junit.jupiter:junit-jupiter:5.7.2'
 
     implementation 'org.apache.commons:commons-csv:1.9.0'
+    implementation "joda-time:joda-time:2.2"
 
+    implementation 'com.guardsquare:proguard-gradle:7.1.0-beta5'
 }
 
+
+
 sourceSets {
+
     main {
         java{
+            srcDir 'src/main/java'
+                
+            include '  **/CSVDemo.java'
+            
 
         }
     }
+} 
+
+jar {
+    archiveBaseName = 'CSVDemo-gradle'
+    archiveVersion = '1.0'
+
 }
+
+// task ('shrink', type: proguard.gradle.ProGuardTask) {
+
+//     configuration 'proguard.cfg'
+
+
+    
+// }
+
+
+
+
+
