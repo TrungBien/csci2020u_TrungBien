@@ -1,7 +1,10 @@
 plugins {
-    id 'java'
-}
+    id "java"
+    id "application"
 
+}
+apply plugin: "java"
+apply plugin: "application"
 group 'org.example'
 version '1.0-SNAPSHOT'
 
@@ -14,6 +17,17 @@ dependencies {
     testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.8.1'
 }
 
-test {
-    useJUnitPlatform()
+application {
+    mainClassName = "Demo"
 }
+
+run {
+    standardInput = System.in
+    standardOutput = System.out
+}
+
+
+
+//test {
+//    useJUnitPlatform()
+//}
