@@ -3,12 +3,16 @@ import java.util.Scanner;
 public class Demo {
 
     public static void main(String[] args) {
+        //Creates factoryclass
         FactoryClass f = new FactoryClass();
+        //initializing phone
         Phone p = null;
+        //setting up input
         Scanner input = new Scanner(System.in);
         boolean valid = false;
         System.out.println("Enter a phone company. (Apple, Samsung, Nokia)");
-        String answer = input.nextLine();
+        String answer = input.nextLine(); //user input here
+        //loops as long as input is invalid and sets p using factoryclass
         while (!valid){
             if (answer.equalsIgnoreCase("APPLE")){
                 valid = true;
@@ -25,6 +29,7 @@ public class Demo {
             }
 
         }
+        //calls name of subclass
         p.name();
 
 
