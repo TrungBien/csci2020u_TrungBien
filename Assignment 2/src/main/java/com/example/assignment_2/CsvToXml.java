@@ -1,6 +1,12 @@
 package com.example.assignment_2;
 
-
+import javafx.application.Application;
+import javafx.scene.Scene;
+import javafx.scene.chart.BarChart;
+import javafx.scene.chart.CategoryAxis;
+import javafx.scene.chart.NumberAxis;
+import javafx.scene.chart.XYChart;
+import javafx.stage.Stage;
 
 import javax.xml.parsers.*;
 import javax.xml.transform.OutputKeys;
@@ -24,9 +30,9 @@ import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 
-public class CsvToXml {
+public class CsvToXml extends Application{
 
-
+    static ArrayList<String[]> dataSet = new ArrayList<>();
 
     public static void main(String[] args) throws ParserConfigurationException {
 
@@ -42,8 +48,8 @@ public class CsvToXml {
 
         ArrayList<String[]> data = new ArrayList<>();
 
+
         try{
-//            InputStream csv = classLoader.getResourceAsStream("airline_safety.csv");
             File csv = new File(CsvToXml.class.getClassLoader().getResource("airline_safety.csv").toURI().getPath());
 
             root = newDoc.createElement(csv.getName());
@@ -63,6 +69,8 @@ public class CsvToXml {
             }
             reader.close();
 
+
+
             //reads ArrayList
             String[] headers = data.get(0);
             ArrayList<Integer> incidentColIndex = new ArrayList<>();
@@ -81,11 +89,9 @@ public class CsvToXml {
                 }
                 counter++;
             }
-            //prints index list
-            //System.out.println(Arrays.toString(incidentColIndex.toArray()));
+
 
             String[] totalIncidents = new String[data.size()-1];
-            //String[] incidentsCombinedData = new String[(data.size()-1)*incidentColIndex.size()];
             ArrayList<String> incidentsCombinedData = new ArrayList<>();
             ArrayList<String> temp = new ArrayList<>();
 
@@ -96,9 +102,6 @@ public class CsvToXml {
                     temp.add(data.get(b)[incidentColIndex.get(a)]);
                 }
 
-//                for (String b:data.get(incidentColIndex.get(a))){
-//                    temp.add(b);
-//                }
                 incidentsCombinedData.addAll(temp);
 
             }
@@ -136,16 +139,14 @@ public class CsvToXml {
 
             }
             headerList[data.get(0).length-1] = "total_number_of_incidents_between_1985_and_2014";
+            data.set(0, headerList);
 
-//            data.set(0,headerList);
-//            System.out.println(Arrays.toString(data.get(0)));
+
 
 
             for( int s = 1; s < data.size(); s++){
                 String[] tempArr = new String[data.get(0).length];
                 for (int t = 0; t < data.get(0).length; t++){
-//                    System.out.println(t);
-//                    System.out.println(data.get(0).length);
                     tempArr[t] = data.get(s)[t];
 
                 }
@@ -153,6 +154,8 @@ public class CsvToXml {
 
                 data.set(s, tempArr);
             }
+
+            dataSet = data;
 
 
         } catch (FileNotFoundException e) {
@@ -165,11 +168,7 @@ public class CsvToXml {
 
         //conversion
 
-//        for(String[] lineData:data){
-//
-//            System.out.println(Arrays.toString(lineData));
-//            //System.out.println(lineData[0]);
-//        }
+
 
 
         try{
@@ -178,7 +177,7 @@ public class CsvToXml {
             Attr stat = null;
 
 
-
+            //creates xml structure
             for (int row = 1; row < data.size(); row++){
 
                 for (int col = 0; col < data.get(0).length; col++){
@@ -214,26 +213,24 @@ public class CsvToXml {
 
             TransformerFactory transFac = TransformerFactory.newInstance();
             Transformer trans = transFac.newTransformer();
+
+            //indents
             trans.setOutputProperty(OutputKeys.INDENT, "yes");
             trans.setOutputProperty("{http://xml.apache.org/xslt}indent-amount", "2");
+
             DOMSource src = new DOMSource(newDoc);
-            StreamResult streamResult =  new StreamResult(new File("converted_airline_safety.xml"));
+            StreamResult streamResult =  new StreamResult(new File("Assignment 2/src/main/resources/converted_airline_safety.csv"));
             trans.transform(src, streamResult);
 
 
 
-//            String xml = streamResult.getWriter().toString();
-//            System.out.println(xml);
+
 
         } catch (Exception e){
             System.out.println("Something has gone wrong in conversion");
         }
 
-//        System.out.println(data.get(6)[1]);
-//        try{
-//            System.out.println(Integer.parseInt(""));
-//        } catch (NumberFormatException e){
-//            System.out.println("conversion of string to int failed");
+
 //        }
 
         //Summary
@@ -252,11 +249,10 @@ public class CsvToXml {
             ArrayList<long[]> summary = new ArrayList<>();
             long[] tempLongArr = new long[3];//three for min, max, and avg
 
-
+            //get summary stats
             for (int c = 1; c < data.get(0).length; c++){ //no need for airline name
 
                 ArrayList<Long> tempLongList = tempColArrList(data, c);
-
 
                 Collections.sort(tempLongList); //sort results in descending order
 
@@ -270,18 +266,7 @@ public class CsvToXml {
                 summary.add(tempLongArr);
             }
 
-
-
-
-
-
-//            Element header = null;
-//            Element minStat = null;
-//            Element maxStat = null;
-//            Element avgStat = null;
-//            Element stat = null;
-
-
+            //creates xml structure
             for (int row = 0; row < summary.size(); row++){
 
                 Element stat = doc.createElement("stat");
@@ -317,12 +302,13 @@ public class CsvToXml {
             TransformerFactory transformerFactory = TransformerFactory.newInstance();
             Transformer transformer = transformerFactory.newTransformer();
 
+            //indents
             transformer.setOutputProperty(OutputKeys.INDENT, "yes");
             transformer.setOutputProperty("{http://xml.apache.org/xslt}indent-amount", "2");
 
             DOMSource domSource = new DOMSource(doc);
 
-            StreamResult result =  new StreamResult(new File("airline_summary_statitic.xml"));
+            StreamResult result =  new StreamResult(new File("Assignment 2/src/main/resources/airline_summary_statitic.xml"));
             transformer.transform(domSource, result);
 
 
@@ -331,11 +317,49 @@ public class CsvToXml {
             System.out.println("Error with summary");
         }
 
+        launch(args);
+
 
 
     }
 
-    //creates ArrayList of ints for summary
+    @Override
+    public void start(Stage primaryStage) throws Exception {
+        //referenced from https://docs.oracle.com/javafx/2/charts/bar-chart.htm
+        primaryStage.setTitle("Fatal Incidents from Airlines Bar Chart");
+
+        CategoryAxis categoryAxisX = new CategoryAxis();
+        NumberAxis numberAxisY = new NumberAxis();
+        BarChart<String, Number> barChart = new BarChart<String, Number>(categoryAxisX, numberAxisY);
+        barChart.setTitle("Airlines and Fatal Incidents");
+        categoryAxisX.setLabel("Airlines");
+        numberAxisY.setLabel("Fatal Incidents");
+
+        XYChart.Series incidents85_99 = new XYChart.Series();
+        XYChart.Series incidents00_14 = new XYChart.Series();
+        incidents85_99.setName("Incidents between 1985-99");
+        incidents00_14.setName("Incidents between 2000-14");
+
+        for (int a = 1; a < dataSet.size(); a++) {
+            incidents85_99.getData().add(new XYChart.Data(dataSet.get(a)[0], Integer.parseInt(dataSet.get(a)[3])));
+        }
+
+        for (int b = 1; b < dataSet.size(); b++) {
+            incidents00_14.getData().add(new XYChart.Data(dataSet.get(b)[0], Integer.parseInt(dataSet.get(b)[6])));
+        }
+
+
+        Scene scene = new Scene(barChart, 1366, 768);
+        barChart.getData().addAll(incidents85_99, incidents00_14);
+        primaryStage.setScene(scene);
+        primaryStage.show();
+
+    }
+
+
+
+
+    //creates ArrayList of longs for summary
     public static ArrayList<Long> tempColArrList(ArrayList<String[]> input, int colNum){
 
         ArrayList<Long> temp = new ArrayList<>();
@@ -360,7 +384,6 @@ public class CsvToXml {
 
         return sum/input.size();
     }
-
 
 
 
