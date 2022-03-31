@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Summary>
+  <stat>
+    <Name>avail_seat_km_per_week</Name>
+    <min>78</min>
+    <max>1</max>
+    <avg>13</avg>
+  </stat>
+  <stat>
+    <Name>incidents_85_99</Name>
+    <min>78</min>
+    <max>1</max>
+    <avg>13</avg>
+  </stat>
+  <stat>
+    <Name>fatal_accidents_85_99</Name>
+    <min>78</min>
+    <max>1</max>
+    <avg>13</avg>
+  </stat>
+  <stat>
+    <Name>fatalities_85_99</Name>
+    <min>78</min>
+    <max>1</max>
+    <avg>13</avg>
+  </stat>
+  <stat>
+    <Name>incidents_00_14</Name>
+    <min>78</min>
+    <max>1</max>
+    <avg>13</avg>
+  </stat>
+  <stat>
+    <Name>fatal_accidents_00_14</Name>
+    <min>78</min>
+    <max>1</max>
+    <avg>13</avg>
+  </stat>
+  <stat>
+    <Name>fatalities_00_14</Name>
+    <min>78</min>
+    <max>1</max>
+    <avg>13</avg>
+  </stat>
+</Summary>

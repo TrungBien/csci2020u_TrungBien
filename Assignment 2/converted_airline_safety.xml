@@ -7,7 +7,7 @@
     <fatalities_85_99>0</fatalities_85_99>
     <incidents_00_14>0</incidents_00_14>
     <fatal_accidents_00_14>0</fatal_accidents_00_14>
-    <total_number_of_incidents_between_1985_and_2014>16</total_number_of_incidents_between_1985_and_2014>
+    <fatalities_00_14>16</fatalities_00_14>
   </airline>
   <airline name="Aeroflot*">
     <avail_seat_km_per_week>1197672318</avail_seat_km_per_week>
@@ -16,7 +16,7 @@
     <fatalities_85_99>128</fatalities_85_99>
     <incidents_00_14>6</incidents_00_14>
     <fatal_accidents_00_14>1</fatal_accidents_00_14>
-    <total_number_of_incidents_between_1985_and_2014>78</total_number_of_incidents_between_1985_and_2014>
+    <fatalities_00_14>78</fatalities_00_14>
   </airline>
   <airline name="Aerolineas Argentinas">
     <avail_seat_km_per_week>385803648</avail_seat_km_per_week>
@@ -25,7 +25,7 @@
     <fatalities_85_99>0</fatalities_85_99>
     <incidents_00_14>1</incidents_00_14>
     <fatal_accidents_00_14>0</fatal_accidents_00_14>
-    <total_number_of_incidents_between_1985_and_2014>9</total_number_of_incidents_between_1985_and_2014>
+    <fatalities_00_14>9</fatalities_00_14>
   </airline>
   <airline name="Aeromexico*">
     <avail_seat_km_per_week>596871813</avail_seat_km_per_week>
@@ -34,7 +34,7 @@
     <fatalities_85_99>64</fatalities_85_99>
     <incidents_00_14>5</incidents_00_14>
     <fatal_accidents_00_14>0</fatal_accidents_00_14>
-    <total_number_of_incidents_between_1985_and_2014>8</total_number_of_incidents_between_1985_and_2014>
+    <fatalities_00_14>8</fatalities_00_14>
   </airline>
   <airline name="Air Canada">
     <avail_seat_km_per_week>1865253802</avail_seat_km_per_week>
@@ -43,7 +43,7 @@
     <fatalities_85_99>0</fatalities_85_99>
     <incidents_00_14>2</incidents_00_14>
     <fatal_accidents_00_14>0</fatal_accidents_00_14>
-    <total_number_of_incidents_between_1985_and_2014>9</total_number_of_incidents_between_1985_and_2014>
+    <fatalities_00_14>9</fatalities_00_14>
   </airline>
   <airline name="Air France">
     <avail_seat_km_per_week>3004002661</avail_seat_km_per_week>
@@ -52,7 +52,7 @@
     <fatalities_85_99>79</fatalities_85_99>
     <incidents_00_14>6</incidents_00_14>
     <fatal_accidents_00_14>2</fatal_accidents_00_14>
-    <total_number_of_incidents_between_1985_and_2014>17</total_number_of_incidents_between_1985_and_2014>
+    <fatalities_00_14>17</fatalities_00_14>
   </airline>
   <airline name="Air India*">
     <avail_seat_km_per_week>869253552</avail_seat_km_per_week>
@@ -61,7 +61,7 @@
     <fatalities_85_99>329</fatalities_85_99>
     <incidents_00_14>4</incidents_00_14>
     <fatal_accidents_00_14>1</fatal_accidents_00_14>
-    <total_number_of_incidents_between_1985_and_2014>23</total_number_of_incidents_between_1985_and_2014>
+    <fatalities_00_14>23</fatalities_00_14>
   </airline>
   <airline name="Air New Zealand*">
     <avail_seat_km_per_week>710174817</avail_seat_km_per_week>
@@ -70,7 +70,7 @@
     <fatalities_85_99>0</fatalities_85_99>
     <incidents_00_14>5</incidents_00_14>
     <fatal_accidents_00_14>1</fatal_accidents_00_14>
-    <total_number_of_incidents_between_1985_and_2014>4</total_number_of_incidents_between_1985_and_2014>
+    <fatalities_00_14>4</fatalities_00_14>
   </airline>
   <airline name="Alaska Airlines*">
     <avail_seat_km_per_week>965346773</avail_seat_km_per_week>
@@ -79,7 +79,7 @@
     <fatalities_85_99>0</fatalities_85_99>
     <incidents_00_14>5</incidents_00_14>
     <fatal_accidents_00_14>1</fatal_accidents_00_14>
-    <total_number_of_incidents_between_1985_and_2014>10</total_number_of_incidents_between_1985_and_2014>
+    <fatalities_00_14>10</fatalities_00_14>
   </airline>
   <airline name="Alitalia">
     <avail_seat_km_per_week>698012498</avail_seat_km_per_week>
@@ -88,7 +88,7 @@
     <fatalities_85_99>50</fatalities_85_99>
     <incidents_00_14>4</incidents_00_14>
     <fatal_accidents_00_14>0</fatal_accidents_00_14>
-    <total_number_of_incidents_between_1985_and_2014>11</total_number_of_incidents_between_1985_and_2014>
+    <fatalities_00_14>11</fatalities_00_14>
   </airline>
   <airline name="All Nippon Airways">
     <avail_seat_km_per_week>1841234177</avail_seat_km_per_week>
@@ -97,7 +97,7 @@
     <fatalities_85_99>1</fatalities_85_99>
     <incidents_00_14>7</incidents_00_14>
     <fatal_accidents_00_14>0</fatal_accidents_00_14>
-    <total_number_of_incidents_between_1985_and_2014>3</total_number_of_incidents_between_1985_and_2014>
+    <fatalities_00_14>3</fatalities_00_14>
   </airline>
   <airline name="American*">
     <avail_seat_km_per_week>5228357340</avail_seat_km_per_week>
@@ -106,7 +106,7 @@
     <fatalities_85_99>101</fatalities_85_99>
     <incidents_00_14>17</incidents_00_14>
     <fatal_accidents_00_14>3</fatal_accidents_00_14>
-    <total_number_of_incidents_between_1985_and_2014>33</total_number_of_incidents_between_1985_and_2014>
+    <fatalities_00_14>33</fatalities_00_14>
   </airline>
   <airline name="Austrian Airlines">
     <avail_seat_km_per_week>358239823</avail_seat_km_per_week>
@@ -115,7 +115,7 @@
     <fatalities_85_99>0</fatalities_85_99>
     <incidents_00_14>1</incidents_00_14>
     <fatal_accidents_00_14>0</fatal_accidents_00_14>
-    <total_number_of_incidents_between_1985_and_2014>3</total_number_of_incidents_between_1985_and_2014>
+    <fatalities_00_14>3</fatalities_00_14>
   </airline>
   <airline name="Avianca">
     <avail_seat_km_per_week>396922563</avail_seat_km_per_week>
@@ -124,7 +124,7 @@
     <fatalities_85_99>323</fatalities_85_99>
     <incidents_00_14>0</incidents_00_14>
     <fatal_accidents_00_14>0</fatal_accidents_00_14>
-    <total_number_of_incidents_between_1985_and_2014>8</total_number_of_incidents_between_1985_and_2014>
+    <fatalities_00_14>8</fatalities_00_14>
   </airline>
   <airline name="British Airways*">
     <avail_seat_km_per_week>3179760952</avail_seat_km_per_week>
@@ -133,7 +133,7 @@
     <fatalities_85_99>0</fatalities_85_99>
     <incidents_00_14>6</incidents_00_14>
     <fatal_accidents_00_14>0</fatal_accidents_00_14>
-    <total_number_of_incidents_between_1985_and_2014>28</total_number_of_incidents_between_1985_and_2014>
+    <fatalities_00_14>28</fatalities_00_14>
   </airline>
   <airline name="Cathay Pacific*">
     <avail_seat_km_per_week>2582459303</avail_seat_km_per_week>
@@ -142,7 +142,7 @@
     <fatalities_85_99>0</fatalities_85_99>
     <incidents_00_14>2</incidents_00_14>
     <fatal_accidents_00_14>0</fatal_accidents_00_14>
-    <total_number_of_incidents_between_1985_and_2014>8</total_number_of_incidents_between_1985_and_2014>
+    <fatalities_00_14>8</fatalities_00_14>
   </airline>
   <airline name="China Airlines">
     <avail_seat_km_per_week>813216487</avail_seat_km_per_week>
@@ -151,7 +151,7 @@
     <fatalities_85_99>535</fatalities_85_99>
     <incidents_00_14>2</incidents_00_14>
     <fatal_accidents_00_14>1</fatal_accidents_00_14>
-    <total_number_of_incidents_between_1985_and_2014>13</total_number_of_incidents_between_1985_and_2014>
+    <fatalities_00_14>13</fatalities_00_14>
   </airline>
   <airline name="Condor">
     <avail_seat_km_per_week>417982610</avail_seat_km_per_week>
@@ -160,7 +160,7 @@
     <fatalities_85_99>16</fatalities_85_99>
     <incidents_00_14>0</incidents_00_14>
     <fatal_accidents_00_14>0</fatal_accidents_00_14>
-    <total_number_of_incidents_between_1985_and_2014>27</total_number_of_incidents_between_1985_and_2014>
+    <fatalities_00_14>27</fatalities_00_14>
   </airline>
   <airline name="COPA">
     <avail_seat_km_per_week>550491507</avail_seat_km_per_week>
@@ -169,7 +169,7 @@
     <fatalities_85_99>47</fatalities_85_99>
     <incidents_00_14>0</incidents_00_14>
     <fatal_accidents_00_14>0</fatal_accidents_00_14>
-    <total_number_of_incidents_between_1985_and_2014>4</total_number_of_incidents_between_1985_and_2014>
+    <fatalities_00_14>4</fatalities_00_14>
   </airline>
   <airline name="Delta / Northwest*">
     <avail_seat_km_per_week>6525658894</avail_seat_km_per_week>
@@ -178,7 +178,7 @@
     <fatalities_85_99>407</fatalities_85_99>
     <incidents_00_14>24</incidents_00_14>
     <fatal_accidents_00_14>2</fatal_accidents_00_14>
-    <total_number_of_incidents_between_1985_and_2014>34</total_number_of_incidents_between_1985_and_2014>
+    <fatalities_00_14>34</fatalities_00_14>
   </airline>
   <airline name="Egyptair">
     <avail_seat_km_per_week>557699891</avail_seat_km_per_week>
@@ -187,7 +187,7 @@
     <fatalities_85_99>282</fatalities_85_99>
     <incidents_00_14>4</incidents_00_14>
     <fatal_accidents_00_14>1</fatal_accidents_00_14>
-    <total_number_of_incidents_between_1985_and_2014>9</total_number_of_incidents_between_1985_and_2014>
+    <fatalities_00_14>9</fatalities_00_14>
   </airline>
   <airline name="El Al">
     <avail_seat_km_per_week>335448023</avail_seat_km_per_week>
@@ -196,7 +196,7 @@
     <fatalities_85_99>4</fatalities_85_99>
     <incidents_00_14>1</incidents_00_14>
     <fatal_accidents_00_14>0</fatal_accidents_00_14>
-    <total_number_of_incidents_between_1985_and_2014>1</total_number_of_incidents_between_1985_and_2014>
+    <fatalities_00_14>1</fatalities_00_14>
   </airline>
   <airline name="Ethiopian Airlines">
     <avail_seat_km_per_week>488560643</avail_seat_km_per_week>
@@ -205,7 +205,7 @@
     <fatalities_85_99>167</fatalities_85_99>
     <incidents_00_14>5</incidents_00_14>
     <fatal_accidents_00_14>2</fatal_accidents_00_14>
-    <total_number_of_incidents_between_1985_and_2014>29</total_number_of_incidents_between_1985_and_2014>
+    <fatalities_00_14>29</fatalities_00_14>
   </airline>
   <airline name="Finnair">
     <avail_seat_km_per_week>506464950</avail_seat_km_per_week>
@@ -214,7 +214,7 @@
     <fatalities_85_99>0</fatalities_85_99>
     <incidents_00_14>0</incidents_00_14>
     <fatal_accidents_00_14>0</fatal_accidents_00_14>
-    <total_number_of_incidents_between_1985_and_2014>4</total_number_of_incidents_between_1985_and_2014>
+    <fatalities_00_14>4</fatalities_00_14>
   </airline>
   <airline name="Garuda Indonesia">
     <avail_seat_km_per_week>613356665</avail_seat_km_per_week>
@@ -223,7 +223,7 @@
     <fatalities_85_99>260</fatalities_85_99>
     <incidents_00_14>4</incidents_00_14>
     <fatal_accidents_00_14>2</fatal_accidents_00_14>
-    <total_number_of_incidents_between_1985_and_2014>12</total_number_of_incidents_between_1985_and_2014>
+    <fatalities_00_14>12</fatalities_00_14>
   </airline>
   <airline name="Gulf Air">
     <avail_seat_km_per_week>301379762</avail_seat_km_per_week>
@@ -232,7 +232,7 @@
     <fatalities_85_99>0</fatalities_85_99>
     <incidents_00_14>3</incidents_00_14>
     <fatal_accidents_00_14>1</fatal_accidents_00_14>
-    <total_number_of_incidents_between_1985_and_2014>8</total_number_of_incidents_between_1985_and_2014>
+    <fatalities_00_14>8</fatalities_00_14>
   </airline>
   <airline name="Hawaiian Airlines">
     <avail_seat_km_per_week>493877795</avail_seat_km_per_week>
@@ -241,7 +241,7 @@
     <fatalities_85_99>0</fatalities_85_99>
     <incidents_00_14>1</incidents_00_14>
     <fatal_accidents_00_14>0</fatal_accidents_00_14>
-    <total_number_of_incidents_between_1985_and_2014>12</total_number_of_incidents_between_1985_and_2014>
+    <fatalities_00_14>12</fatalities_00_14>
   </airline>
   <airline name="Iberia">
     <avail_seat_km_per_week>1173203126</avail_seat_km_per_week>
@@ -250,7 +250,7 @@
     <fatalities_85_99>148</fatalities_85_99>
     <incidents_00_14>5</incidents_00_14>
     <fatal_accidents_00_14>0</fatal_accidents_00_14>
-    <total_number_of_incidents_between_1985_and_2014>7</total_number_of_incidents_between_1985_and_2014>
+    <fatalities_00_14>7</fatalities_00_14>
   </airline>
   <airline name="Japan Airlines">
     <avail_seat_km_per_week>1574217531</avail_seat_km_per_week>
@@ -259,7 +259,7 @@
     <fatalities_85_99>520</fatalities_85_99>
     <incidents_00_14>0</incidents_00_14>
     <fatal_accidents_00_14>0</fatal_accidents_00_14>
-    <total_number_of_incidents_between_1985_and_2014>9</total_number_of_incidents_between_1985_and_2014>
+    <fatalities_00_14>9</fatalities_00_14>
   </airline>
   <airline name="Kenya Airways">
     <avail_seat_km_per_week>277414794</avail_seat_km_per_week>
@@ -268,7 +268,7 @@
     <fatalities_85_99>0</fatalities_85_99>
     <incidents_00_14>2</incidents_00_14>
     <fatal_accidents_00_14>2</fatal_accidents_00_14>
-    <total_number_of_incidents_between_1985_and_2014>5</total_number_of_incidents_between_1985_and_2014>
+    <fatalities_00_14>5</fatalities_00_14>
   </airline>
   <airline name="KLM*">
     <avail_seat_km_per_week>1874561773</avail_seat_km_per_week>
@@ -277,7 +277,7 @@
     <fatalities_85_99>3</fatalities_85_99>
     <incidents_00_14>1</incidents_00_14>
     <fatal_accidents_00_14>0</fatal_accidents_00_14>
-    <total_number_of_incidents_between_1985_and_2014>15</total_number_of_incidents_between_1985_and_2014>
+    <fatalities_00_14>15</fatalities_00_14>
   </airline>
   <airline name="Korean Air">
     <avail_seat_km_per_week>1734522605</avail_seat_km_per_week>
@@ -286,7 +286,7 @@
     <fatalities_85_99>425</fatalities_85_99>
     <incidents_00_14>1</incidents_00_14>
     <fatal_accidents_00_14>0</fatal_accidents_00_14>
-    <total_number_of_incidents_between_1985_and_2014>19</total_number_of_incidents_between_1985_and_2014>
+    <fatalities_00_14>19</fatalities_00_14>
   </airline>
   <airline name="LAN Airlines">
     <avail_seat_km_per_week>1001965891</avail_seat_km_per_week>
@@ -295,7 +295,7 @@
     <fatalities_85_99>21</fatalities_85_99>
     <incidents_00_14>0</incidents_00_14>
     <fatal_accidents_00_14>0</fatal_accidents_00_14>
-    <total_number_of_incidents_between_1985_and_2014>4</total_number_of_incidents_between_1985_and_2014>
+    <fatalities_00_14>4</fatalities_00_14>
   </airline>
   <airline name="Lufthansa*">
     <avail_seat_km_per_week>3426529504</avail_seat_km_per_week>
@@ -304,7 +304,7 @@
     <fatalities_85_99>2</fatalities_85_99>
     <incidents_00_14>3</incidents_00_14>
     <fatal_accidents_00_14>0</fatal_accidents_00_14>
-    <total_number_of_incidents_between_1985_and_2014>11</total_number_of_incidents_between_1985_and_2014>
+    <fatalities_00_14>11</fatalities_00_14>
   </airline>
   <airline name="Malaysia Airlines">
     <avail_seat_km_per_week>1039171244</avail_seat_km_per_week>
@@ -313,7 +313,7 @@
     <fatalities_85_99>34</fatalities_85_99>
     <incidents_00_14>3</incidents_00_14>
     <fatal_accidents_00_14>2</fatal_accidents_00_14>
-    <total_number_of_incidents_between_1985_and_2014>8</total_number_of_incidents_between_1985_and_2014>
+    <fatalities_00_14>8</fatalities_00_14>
   </airline>
   <airline name="Pakistan International">
     <avail_seat_km_per_week>348563137</avail_seat_km_per_week>
@@ -322,7 +322,7 @@
     <fatalities_85_99>234</fatalities_85_99>
     <incidents_00_14>10</incidents_00_14>
     <fatal_accidents_00_14>2</fatal_accidents_00_14>
-    <total_number_of_incidents_between_1985_and_2014>15</total_number_of_incidents_between_1985_and_2014>
+    <fatalities_00_14>15</fatalities_00_14>
   </airline>
   <airline name="Philippine Airlines">
     <avail_seat_km_per_week>413007158</avail_seat_km_per_week>
@@ -331,7 +331,7 @@
     <fatalities_85_99>74</fatalities_85_99>
     <incidents_00_14>2</incidents_00_14>
     <fatal_accidents_00_14>1</fatal_accidents_00_14>
-    <total_number_of_incidents_between_1985_and_2014>9</total_number_of_incidents_between_1985_and_2014>
+    <fatalities_00_14>9</fatalities_00_14>
   </airline>
   <airline name="Qantas*">
     <avail_seat_km_per_week>1917428984</avail_seat_km_per_week>
@@ -340,7 +340,7 @@
     <fatalities_85_99>0</fatalities_85_99>
     <incidents_00_14>5</incidents_00_14>
     <fatal_accidents_00_14>0</fatal_accidents_00_14>
-    <total_number_of_incidents_between_1985_and_2014>3</total_number_of_incidents_between_1985_and_2014>
+    <fatalities_00_14>3</fatalities_00_14>
   </airline>
   <airline name="Royal Air Maroc">
     <avail_seat_km_per_week>295705339</avail_seat_km_per_week>
@@ -349,7 +349,7 @@
     <fatalities_85_99>51</fatalities_85_99>
     <incidents_00_14>3</incidents_00_14>
     <fatal_accidents_00_14>0</fatal_accidents_00_14>
-    <total_number_of_incidents_between_1985_and_2014>6</total_number_of_incidents_between_1985_and_2014>
+    <fatalities_00_14>6</fatalities_00_14>
   </airline>
   <airline name="SAS*">
     <avail_seat_km_per_week>682971852</avail_seat_km_per_week>
@@ -358,7 +358,7 @@
     <fatalities_85_99>0</fatalities_85_99>
     <incidents_00_14>6</incidents_00_14>
     <fatal_accidents_00_14>1</fatal_accidents_00_14>
-    <total_number_of_incidents_between_1985_and_2014>7</total_number_of_incidents_between_1985_and_2014>
+    <fatalities_00_14>7</fatalities_00_14>
   </airline>
   <airline name="Saudi Arabian">
     <avail_seat_km_per_week>859673901</avail_seat_km_per_week>
@@ -367,7 +367,7 @@
     <fatalities_85_99>313</fatalities_85_99>
     <incidents_00_14>11</incidents_00_14>
     <fatal_accidents_00_14>0</fatal_accidents_00_14>
-    <total_number_of_incidents_between_1985_and_2014>9</total_number_of_incidents_between_1985_and_2014>
+    <fatalities_00_14>9</fatalities_00_14>
   </airline>
   <airline name="Singapore Airlines">
     <avail_seat_km_per_week>2376857805</avail_seat_km_per_week>
@@ -376,7 +376,7 @@
     <fatalities_85_99>6</fatalities_85_99>
     <incidents_00_14>2</incidents_00_14>
     <fatal_accidents_00_14>1</fatal_accidents_00_14>
-    <total_number_of_incidents_between_1985_and_2014>5</total_number_of_incidents_between_1985_and_2014>
+    <fatalities_00_14>5</fatalities_00_14>
   </airline>
   <airline name="South African">
     <avail_seat_km_per_week>651502442</avail_seat_km_per_week>
@@ -385,7 +385,7 @@
     <fatalities_85_99>159</fatalities_85_99>
     <incidents_00_14>1</incidents_00_14>
     <fatal_accidents_00_14>0</fatal_accidents_00_14>
-    <total_number_of_incidents_between_1985_and_2014>10</total_number_of_incidents_between_1985_and_2014>
+    <fatalities_00_14>10</fatalities_00_14>
   </airline>
   <airline name="Southwest Airlines">
     <avail_seat_km_per_week>3276525770</avail_seat_km_per_week>
@@ -394,7 +394,7 @@
     <fatalities_85_99>0</fatalities_85_99>
     <incidents_00_14>8</incidents_00_14>
     <fatal_accidents_00_14>0</fatal_accidents_00_14>
-    <total_number_of_incidents_between_1985_and_2014>1</total_number_of_incidents_between_1985_and_2014>
+    <fatalities_00_14>1</fatalities_00_14>
   </airline>
   <airline name="Sri Lankan / AirLanka">
     <avail_seat_km_per_week>325582976</avail_seat_km_per_week>
@@ -403,7 +403,7 @@
     <fatalities_85_99>14</fatalities_85_99>
     <incidents_00_14>4</incidents_00_14>
     <fatal_accidents_00_14>0</fatal_accidents_00_14>
-    <total_number_of_incidents_between_1985_and_2014>10</total_number_of_incidents_between_1985_and_2014>
+    <fatalities_00_14>10</fatalities_00_14>
   </airline>
   <airline name="SWISS*">
     <avail_seat_km_per_week>792601299</avail_seat_km_per_week>
@@ -412,7 +412,7 @@
     <fatalities_85_99>229</fatalities_85_99>
     <incidents_00_14>3</incidents_00_14>
     <fatal_accidents_00_14>0</fatal_accidents_00_14>
-    <total_number_of_incidents_between_1985_and_2014>10</total_number_of_incidents_between_1985_and_2014>
+    <fatalities_00_14>10</fatalities_00_14>
   </airline>
   <airline name="TACA">
     <avail_seat_km_per_week>259373346</avail_seat_km_per_week>
@@ -421,7 +421,7 @@
     <fatalities_85_99>3</fatalities_85_99>
     <incidents_00_14>1</incidents_00_14>
     <fatal_accidents_00_14>1</fatal_accidents_00_14>
-    <total_number_of_incidents_between_1985_and_2014>22</total_number_of_incidents_between_1985_and_2014>
+    <fatalities_00_14>22</fatalities_00_14>
   </airline>
   <airline name="TAM">
     <avail_seat_km_per_week>1509195646</avail_seat_km_per_week>
@@ -430,7 +430,7 @@
     <fatalities_85_99>98</fatalities_85_99>
     <incidents_00_14>7</incidents_00_14>
     <fatal_accidents_00_14>2</fatal_accidents_00_14>
-    <total_number_of_incidents_between_1985_and_2014>24</total_number_of_incidents_between_1985_and_2014>
+    <fatalities_00_14>24</fatalities_00_14>
   </airline>
   <airline name="TAP - Air Portugal">
     <avail_seat_km_per_week>619130754</avail_seat_km_per_week>
@@ -439,7 +439,7 @@
     <fatalities_85_99>0</fatalities_85_99>
     <incidents_00_14>0</incidents_00_14>
     <fatal_accidents_00_14>0</fatal_accidents_00_14>
-    <total_number_of_incidents_between_1985_and_2014>7</total_number_of_incidents_between_1985_and_2014>
+    <fatalities_00_14>7</fatalities_00_14>
   </airline>
   <airline name="Thai Airways">
     <avail_seat_km_per_week>1702802250</avail_seat_km_per_week>
@@ -448,7 +448,7 @@
     <fatalities_85_99>308</fatalities_85_99>
     <incidents_00_14>2</incidents_00_14>
     <fatal_accidents_00_14>1</fatal_accidents_00_14>
-    <total_number_of_incidents_between_1985_and_2014>9</total_number_of_incidents_between_1985_and_2014>
+    <fatalities_00_14>9</fatalities_00_14>
   </airline>
   <airline name="Turkish Airlines">
     <avail_seat_km_per_week>1946098294</avail_seat_km_per_week>
@@ -457,7 +457,7 @@
     <fatalities_85_99>64</fatalities_85_99>
     <incidents_00_14>8</incidents_00_14>
     <fatal_accidents_00_14>2</fatal_accidents_00_14>
-    <total_number_of_incidents_between_1985_and_2014>17</total_number_of_incidents_between_1985_and_2014>
+    <fatalities_00_14>17</fatalities_00_14>
   </airline>
   <airline name="United / Continental*">
     <avail_seat_km_per_week>7139291291</avail_seat_km_per_week>
@@ -466,7 +466,7 @@
     <fatalities_85_99>319</fatalities_85_99>
     <incidents_00_14>14</incidents_00_14>
     <fatal_accidents_00_14>2</fatal_accidents_00_14>
-    <total_number_of_incidents_between_1985_and_2014>19</total_number_of_incidents_between_1985_and_2014>
+    <fatalities_00_14>19</fatalities_00_14>
   </airline>
   <airline name="US Airways / America West*">
     <avail_seat_km_per_week>2455687887</avail_seat_km_per_week>
@@ -475,7 +475,7 @@
     <fatalities_85_99>224</fatalities_85_99>
     <incidents_00_14>11</incidents_00_14>
     <fatal_accidents_00_14>2</fatal_accidents_00_14>
-    <total_number_of_incidents_between_1985_and_2014>22</total_number_of_incidents_between_1985_and_2014>
+    <fatalities_00_14>22</fatalities_00_14>
   </airline>
   <airline name="Vietnam Airlines">
     <avail_seat_km_per_week>625084918</avail_seat_km_per_week>
@@ -484,7 +484,7 @@
     <fatalities_85_99>171</fatalities_85_99>
     <incidents_00_14>1</incidents_00_14>
     <fatal_accidents_00_14>0</fatal_accidents_00_14>
-    <total_number_of_incidents_between_1985_and_2014>8</total_number_of_incidents_between_1985_and_2014>
+    <fatalities_00_14>8</fatalities_00_14>
   </airline>
   <airline name="Virgin Atlantic">
     <avail_seat_km_per_week>1005248585</avail_seat_km_per_week>
@@ -493,7 +493,7 @@
     <fatalities_85_99>0</fatalities_85_99>
     <incidents_00_14>0</incidents_00_14>
     <fatal_accidents_00_14>0</fatal_accidents_00_14>
-    <total_number_of_incidents_between_1985_and_2014>6</total_number_of_incidents_between_1985_and_2014>
+    <fatalities_00_14>6</fatalities_00_14>
   </airline>
   <airline name="Xiamen Airlines">
     <avail_seat_km_per_week>430462962</avail_seat_km_per_week>
@@ -502,6 +502,6 @@
     <fatalities_85_99>82</fatalities_85_99>
     <incidents_00_14>2</incidents_00_14>
     <fatal_accidents_00_14>0</fatal_accidents_00_14>
-    <total_number_of_incidents_between_1985_and_2014>11</total_number_of_incidents_between_1985_and_2014>
+    <fatalities_00_14>11</fatalities_00_14>
   </airline>
 </airline_safety.csv>
